@@ -1,0 +1,37 @@
+#Corpo {
+    background-image: url("A merda do trabalho.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Trabalho {
+    background-color: rgb(100, 100, 100);
+}
+
+div.galeriagrp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+div.galeria {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  div.galeria:hover {
+    border: 5px solid #777;
+  }
+
+  div.galeria img {
+    width: 100%;
+    height: 300px;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
